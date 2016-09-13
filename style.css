@@ -1,0 +1,414 @@
+body {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*Middle block*/
+.mid {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#content_blue {
+    background-color: #334960;
+}
+
+#mid_blue {
+    background-color: #334960;
+}
+
+#content_pink {
+    background-color: #F17C72;
+    margin: 0;
+}
+
+#mid_pink {
+    background-color: #F17C72;
+    margin: 0;
+    margin: 0 auto;
+}
+
+#content_green {
+    background-color: #32AC97;
+}
+
+#mid_green {
+    background-color: #32AC97;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding-top: 0.755em;
+}
+
+/*Menu*/
+ul.menu {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+
+ul.menu li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    height: auto;
+    padding: 30px 5px 5px 5px; /*Отступы для меню*/
+    background-color: #334960;
+}
+
+ul.menu li:hover {
+    background-color: #3F9FC9;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header_blue {
+    background-color: #334960;
+    height: 100px;
+}
+
+.main_menu {
+    margin-left: 35.225em;
+    padding-top: 1.225em;
+}
+
+.main_slogan {
+    text-align: center;
+    color: white;
+    padding-top: 1.225em;
+}
+
+.btn1 {
+    background: url("images/pagination.png");
+    width: 32px;
+    height: 32px;
+    background-position: right;
+    display: inline-block;
+}
+
+.btn2 {
+    background: url("images/pagination.png");
+    width: 32px;
+    height: 32px;
+    background-position: right;
+    display: inline-block;
+}
+
+.btn3 {
+    background: url("images/pagination.png");
+    width: 32px;
+    height: 32px;
+    background-position: right;
+    display: inline-block;
+}
+
+.btn4 {
+    background: url("images/pagination.png");
+    width: 32px;
+    height: 32px;
+    background-position: right;
+    display: inline-block;
+}
+
+.service {
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background-position: left;
+}
+
+.btn2:hover {
+    background-position: left;
+}
+
+.btn3:hover {
+    background-position: left;
+}
+
+.btn4:hover {
+    background-position: left;
+}
+
+.controls {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.s1 {
+    background: url("images/socials.png");
+    width: 69px;
+    height: 69px;
+    background-position: 0px 0px;
+    display: inline-block;
+}
+
+.s1:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.s2 {
+    background: url("images/socials.png");
+    width: 69px;
+    height: 69px;
+    background-position: -88px 0px;
+    display: inline-block;
+}
+
+.s2:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.s3 {
+    background: url("images/socials.png");
+    width: 69px;
+    height: 69px;
+    background-position: -175px 0px;
+    display: inline-block;
+}
+
+.s3:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.s4 {
+    background: url("images/socials.png");
+    width: 69px;
+    height: 69px;
+    background-position: -263px 0px;
+    display: inline-block;
+}
+
+.s4:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.socials {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.next_block {
+    width: 50px;
+    height: 50px;
+    background-color: #334960;
+    transform: rotate(45deg);
+    margin: 0 auto;
+}
+
+.article {
+    text-align: center;
+    color: white;
+    padding-top: 1.255em;
+    padding-bottom: 3.255em;
+}
+
+.person {
+    height: auto;
+    width: 200px;
+    border: 2px solid #F48E85;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: #E6655E;
+    float: left;
+    margin-right: 2%;
+}
+
+.person:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #5A9C88; /* Цвет линии для остальных браузеров */
+    background-color: #5A9C88; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+    margin-bottom: 12px;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 4px;
+}
+
+h5 {
+    color: white;
+    margin-top: 4px;
+}
+
+.person img {
+    border-radius: 100%;
+    border: 2px solid #F48E85;
+    position: relative;
+    top: 5px;
+}
+
+.person_soc1 {
+    background: url("images/soc1.png");
+    width: 31px;
+    height: 31px;
+    background-position: 0px 0px;
+    display: inline-block;
+    padding-right: 3px;
+}
+
+.person_soc2 {
+    background: url("images/soc1.png");
+    width: 31px;
+    height: 31px;
+    background-position: -39px 0px;
+    display: inline-block;
+    padding-right: 3px;
+}
+
+.person_soc3 {
+    background: url("images/soc1.png");
+    width: 31px;
+    height: 31px;
+    background-position: -79px 0px;
+    display: inline-block;
+    padding-right: 3px;
+}
+
+.person_soc4 {
+    background: url("images/soc1.png");
+    width: 31px;
+    height: 31px;
+    background-position: -116px 0px;
+    display: inline-block;
+    padding-right: 3px;
+}
+
+table {
+    margin: auto; /* Выравнивание таблицы по центру блока*/
+    padding-bottom: 25px;
+}
+
+.next_block_pink {
+    width: 50px;
+    height: 50px;
+    background-color: #F17C72;
+    transform: rotate(45deg);
+    margin: 0 auto;
+}
+
+.wrap {
+    width: 100%;
+    margin-left: 4%;
+}
+
+.service {
+    height: 400px;
+    width: 200px;
+    border: 2px solid #8CCEC2;
+    text-align: center;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 2%; /* Отступ от каждого блока */
+    background-color: #46DCC7;
+}
+
+.service:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.clear {
+    clear: both;
+}
+
+.round {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    background-color: #334960;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.round:hover {
+    background-color: #3F9FC9;
+}
+
+.position {
+    padding: 4px; /*Padding inside block*/
+}
+
+footer {
+    height: 150px;
+    width: auto;
+}
+
+.scrollup {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+    background: url('images/totop.png') no-repeat;
+}
+
+@media screen and (max-width: 1350px) {
+    .main_menu {
+        margin-left: 1.225em;
+        padding-top: 6.255em;
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    .scrollup {
+        right: 25px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .menu ul {
+        font-size: small;
+        height: 10px;
+    }
+
+    .menu li a {
+        float: left;
+        display: block;
+        margin: 0;
+        height: 10px;
+    }
+
+    .menu a {
+        width: auto;
+        padding: 5px;
+    }
+
+    ul.menu li {
+        background-color: inherit;
+    }
+
+    ul.menu li:hover {
+        background-color: inherit;
+    }
+
+    h1 .main_slogan {
+        padding-top: 2.225em;
+    }
+}
